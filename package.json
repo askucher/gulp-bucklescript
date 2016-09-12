@@ -1,0 +1,31 @@
+{
+  "name": "gulp-bucklescript",
+  "description": "Compile bucklescript files",
+  "version": "2.3.2",
+  "homepage": "http://github.com/askucher/gulp-bucklescript",
+  "repository": "git://github.com/askucher/gulp-bucklescript.git",
+  "author": "Andrey Stehno",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "bucklescript": "latest",
+    "gulp-util": "^3.0.2",
+    "merge": "^1.2.0",
+    "through2": "^0.6.3",
+    "vinyl-sourcemaps-apply": "^0.1.4"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.3.0",
+    "mocha": "^2.1.0",
+    "should": "^4.6.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "license": "MIT"
+}
